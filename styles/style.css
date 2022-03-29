@@ -172,12 +172,8 @@
   width: 250px;
   list-style: none;
   margin-top: 60px;
-  
   padding: 0;
-  
 }
-
-
 
 .feynman {
   height: 790px;
@@ -295,29 +291,25 @@
   margin-top: 80px;
   list-style: none;
   z-index: 1;
- 
 }
 
 .kaufman__triangle {
   height: 877px;
   width: 877px;
   background-image: url(../images/kaufman-triangle.svg);
-  background-size: contain; 
+  background-size: contain;
   margin: 0;
   padding: 0;
   position: absolute;
   top: 0;
   right: -210px;
-  
 }
-
-
 
 .footer {
   min-height: 350px;
   background-color: #1f1f1f ;
   box-sizing: border-box;
-  justify-content: center;  
+  justify-content: center;
   padding: 60px 0 40px 0;
   display: flex;
 }
@@ -370,7 +362,7 @@
   margin: 20px 0 16px 0;
   display: flex;
   flex-direction: column;
-  padding: 0; 
+  padding: 0;
   text-decoration: none;
   list-style: none;
 }
@@ -395,3 +387,5 @@
   height: 16px;
   margin-right: 10px;
 }
+
+/*alo git rabotai plz*/
