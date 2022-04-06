@@ -17,12 +17,12 @@
   padding-left: 64px;
 }
 
-.header_title {
+.header__title {
   font-size: 102px;
   margin: 0;
   line-height: 96px;
   max-width: 730px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .header__square-pic {
@@ -47,7 +47,7 @@
   left: 64px;
 }
 
-.header_subtitle {
+.header__subtitle {
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -55,10 +55,10 @@
   text-align: left;
   font-size: 18px;
   line-height: 25px;
-  z-index: 1;
+  z-index: 2;
 }
 
-.header_link {
+.header__link {
   text-decoration: none;
 }
 
@@ -71,20 +71,28 @@
   z-index: 1;
 }
 
+.description {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
 .two-columns {
   display: flex;
-  flex-direction: row;
+  
   justify-content: space-between;
   width: 80%;
-  padding: 100px 0 0;
-  margin: auto;
+ 
+}
+
+.two-columns__paragraph:last-child {
+  margin: 0;
 }
 
 .two-columns__brief {
   margin: 0;
   padding: 0;
-  flex-direction: column;
-  justify-content: flex-start;
+  font-weight: normal;
   width: 175px;
   font-size: 18px;
   line-height: 1.2;
@@ -96,16 +104,16 @@
   padding: 0;
   width: 80%;
   min-width: 784px;
-  justify-content: flex-start;
+  
 }
 
 .two-columns__paragraph {
-  margin: 0 0 20px o;
+  margin: 0 0 20px 0;
   padding: 0;
   line-height: 34px;
   font-size: 24px;
-  margin-bottom: 30px;
   
+  font-weight: normal;
 }
 
 .two-columns__span-accent {
@@ -159,6 +167,10 @@
   font-style: normal;
 }
 
+.table__text:last-child {
+  margin-bottom: 0;
+}
+
 .table {
   display: flex;
   justify-content: space-between;
@@ -191,7 +203,7 @@
 }
 
 
-.feynman_title {
+.feynman__title {
   margin: 0;
   padding: 0;
   width: 648px;
@@ -201,7 +213,7 @@
   font-weight: bold;
 }
 
-.feynman_subtitle {
+.feynman__subtitle {
   margin: 20px 0 0 0;
   padding: 0;
   margin-top: 70px;
@@ -210,7 +222,7 @@
   font-weight: normal;
 }
 
-.feynman_link {
+.feynman__link {
   position: absolute;
   top: 50%;
   right: 48px;
@@ -232,7 +244,7 @@
  
 }
 
-.section-title__theme_dark {
+.section-title_theme_dark {
   margin: 0;
   padding: 0;
   width: 60%;
@@ -241,9 +253,10 @@
   font-size: 60px;
   font-weight: bold;
   color: white;
+  z-index: 1;
 }
 
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
   margin: 0;
   padding: 0;
   margin-top: 20px;
@@ -256,7 +269,7 @@
   
 }
 
-.table__theme_dark {
+.table_theme_dark {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
