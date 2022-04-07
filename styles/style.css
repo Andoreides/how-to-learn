@@ -375,7 +375,7 @@
   margin: 0;
 }
 
-.footer__column_links {
+.footer__column-links {
   margin: 20px 0 16px 0;
   display: flex;
   flex-direction: column;
@@ -384,7 +384,7 @@
   list-style: none;
 }
 
-.footer__column_link {
+.footer__column-link {
   text-decoration: none;
   color: white;
   line-height: 30px;
@@ -399,10 +399,11 @@
   list-style: none;
 }
 
-.footer__column_social-cion {
+.footer__column_social-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
+  
 }
 
 /*alo git rabotai plz*/
