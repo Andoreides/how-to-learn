@@ -11,8 +11,10 @@
 @import url(../blocks/description/description.css);
 
 @import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/section-subtitle/__theme/section-subtitle_theme_dark.css);
 
 @import url(../blocks/section-title/section-title.css);
+@import url(/blocks/section-title/__theme/section-title_theme_dark.css);
 
 @import url(../blocks/techniques/techniques.css);
 
@@ -43,6 +45,7 @@
 @import url(../blocks/feynman/__title/feynman__title.css);
 
 @import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
 @import url(../blocks/resources/resources.css);
 
@@ -55,3 +58,4 @@
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__content/footer__column_content_copyright.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
+
